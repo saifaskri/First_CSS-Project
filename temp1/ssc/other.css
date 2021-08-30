@@ -1,0 +1,585 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hoch-section{
+    height: calc(100vh - 40px);
+    background: url(../fotos/saif.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.hoch-section h3{
+    font-size: 40px;
+    width: 220px;
+    /* border: 0.1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.hoch-section p{
+    /* border: 0.1px solid black; */
+    width: 320px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    height: 70px;
+    line-height: 1.9;
+    flex-wrap: wrap;
+
+
+}
+.nav-icon i{
+    font-size:25px ;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {  
+    .hoch-section p{  width: 320px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    height: 70px;
+    line-height: 1.9;
+    flex-wrap: wrap;
+}
+
+ }
+
+
+
+
+
+
+
+.feature-secteur{
+width: 100%;
+ padding: 20px;
+ background-color: #ebeced;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+.f-container{ 
+
+width: 100%;
+height: fit-content;
+display:grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+grid-gap: 10px;
+}
+
+ .az{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+height: 300px;
+padding: 30px 0;
+min-width: 300px;
+line-height: 1.9;
+
+}
+
+
+
+
+
+
+
+
+
+.feature-secteur .az p {
+padding: 15px;
+
+}
+
+.feature-secteur .az i {
+color:#10cab7;
+font-size: 40px;   
+ }
+
+.feature-secteur .az h3 {
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-secteur{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.titel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+.titel .p1{
+    color: #acc8e4;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.under-titel{
+    font-size: 25px;
+    color: #8a9299;
+    margin: -20px;
+    padding: 0px;
+
+}
+
+.service-secteur .s-container{
+display: flex;
+flex-wrap: wrap;
+height: fit-content;
+}
+
+.ser{
+height: fit-content;
+width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 30px;
+line-height: 1.9;
+}
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 992px) {  
+    .ser{
+        height: fit-content;
+        width: 50%;
+        } 
+ }
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    .ser{
+        height: fit-content;
+        width: 100%;
+        }   
+}
+
+ .service-secteur i{
+    color:#10cab7;
+    font-size: 40px;
+ }
+
+
+
+
+
+
+
+
+ .porfolio-secteur{
+margin-top: 25px;
+padding: 20px;
+background-color: #ebeced;
+height: fit-content;
+width: 100%;
+ }
+
+
+.p-container{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+width: 100%;
+height: fit-content;
+grid-gap: 20px;
+
+}
+
+.Portfolio-cards{
+    height: 450px;
+}
+
+
+ .Portfolio-cards .beschreibung{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+ }
+
+
+ .Portfolio-cards img{
+     width: 100%;
+     height: 60%;
+     margin: 0;
+padding: 0;
+object-fit: cover;
+ }
+
+ .Portfolio-cards .beschreibung{
+height: 40%;
+background-color: white;
+
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+ 
+    .p-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        width: 100%;
+        height: fit-content;
+        grid-gap: 20px;
+        
+        }
+
+
+.porfolio-secteur .titel .p1{
+    color: #acc8e4;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.porfolio-secteur .under-titel{
+    font-size: 16px;
+    color: #8a9299;
+    margin: -25px;
+    padding: 0px;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .about-secteur{
+margin-top: 25px;
+padding: 20px;
+background-color: white;
+height: fit-content;
+width: 100%;
+}
+
+.about-container{
+    width: 100%;
+
+}
+
+.about-secteur .titel .p1{
+    color: #acc8e4;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.about-secteur .under-titel{
+    font-size: 20px;
+    color: #8a9299;
+    margin: -30px;
+    padding: 0px;
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+ 
+   
+
+
+.about-secteur .titel .p1{
+    color: #acc8e4;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.about-secteur .under-titel{
+    font-size: 16px;
+    color: #8a9299;
+    margin: -23px;
+    padding: 0px;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-secteur{
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #ebeced;
+    height: fit-content;
+    width: 100%;
+    }
+    
+    .contact-container{
+        width: 100%;
+    display: flex;
+padding: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+     .info a{
+        text-decoration: none;
+         color:#10cab7 ;
+         font-size: 30px;
+         margin-left: 25px;
+
+     }
+     .info > p{
+        font-size: 35px;
+        color: #2c4755;
+        letter-spacing: -2px;
+        margin-bottom: 15px;;
+     }
+    .social{
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+ 
+   
+
+
+    .info a{
+        text-decoration: none;
+         color:#10cab7 ;
+         font-size: 30px;
+         margin-left: 0;
+     }
+     .info > p{
+        font-size: 29px;
+        color: #2c4755;
+        letter-spacing: -2px;
+        margin-bottom: 15px;
+     }
+    .social{
+        margin-top: 30px;
+        margin-left: 15px;
+
+    }
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+    .contact-secteur .titel .p1{
+        color: #acc8e4;
+        font-size:100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    
+    
+    .contact-secteur .under-titel{
+        font-size: 20px;
+        color: #8a9299;
+        margin: -30px;
+        padding: 0px;
+    
+    }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+ 
+  
+
+.contact-secteur .titel .p1{
+    color: #acc8e4;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.contact-secteur .under-titel{
+    font-size: 16px;
+    color: #8a9299;
+    margin: -23px;
+    padding: 0px;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+
+footer{
+    background-color: #2c4755;
+    color: white;
+    padding: 30px ;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer span{
+    color: #10cab7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
